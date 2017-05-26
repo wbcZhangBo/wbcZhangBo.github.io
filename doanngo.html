@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- meat必须！请将此meat标签加到head标签内 -->
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/doanngo.css">
+</head>
+<body>
+    <img class="doatop" src="img/doatop.png" alt="">
+    <div class="hdxq">
+        <div>
+            <img src="img/det.png" alt="">
+        </div>
+    </div>
+    <div class="bodyContent">
+        <!-- 加息劵奖励 -->
+        <img src="img/jx.png" alt="">
+        <div class="actIn">活动期间，用户完成任意金额投资均可获得加息劵奖励</div>
+        <table class="favorable">
+            <thead>
+                <tr>
+                    <th>投资金额</th>
+                    <th>奖励</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>单笔投资&le;1500元</td>
+                    <td>0.5%加息劵</td>
+                </tr>
+                <tr>
+                    <td>1500元&lt;单笔投资&le;6000</td>
+                    <td>1%加息劵</td>
+                </tr>
+                <tr>
+                    <td>6000&lt;投资金额&le;15000</td>
+                    <td>1.5%加息劵</td>
+                </tr>
+                <tr>
+                    <td>15000&lt;投资金额&le;30000</td>
+                    <td>2%加息劵</td>
+                </tr>
+                <tr>
+                    <td>30000&lt;投资金额&le;50000</td>
+                    <td>2.5%加息劵</td>
+                </tr>
+                <tr>
+                    <td>单笔投资&gt;50000</td>
+                    <td>3%加息劵</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <!-- 实物奖励 -->
+        <img class="inKind" src="img/sw_03.png" alt="">
+        <div class="actIn">活动期间，用户累计投资超过20000元，即可获得实物奖励</div>
+        <table class="favorable">
+            <thead>
+                <tr>
+                    <th>投资金额</th>
+                    <th>奖励</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>累计投资超过20000元</td>
+                    <td>50元话费</td>
+                </tr>
+                <tr>
+                    <td>累计投资超过50000元</td>
+                    <td>小米小钢炮蓝牙音箱2</td>
+                </tr>
+                <tr>
+                    <td>累计投资超过100000元</td>
+                    <td>飞利浦咖啡机</td>
+                </tr>
+                <tr>
+                    <td>累计投资超过200000元</td>
+                    <td>小米空气净化器2</td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <!-- 活动说明 -->
+        <div class="activity">
+            <ul>
+                <p class="lastLi">活动说明：</p>
+                <li>1.加息券在用户投资达标后实时发放到用户账户.</li>
+                <li>2、加息劵有效期15天，不可用于新手标.</li>
+                <li class="moreText"><span>3、</span><p>实物奖励会在活动结束后1-7个工作日内联系达标的投资用户.</p></li>
+                <li>4、加息劵赠送用于单笔投资.</li>
+                <li>5、实物奖励用于活动期间的用户累计投资.</li>
+                <li>6、单笔投资和累计投资只在活动期间有效.</li>
+            </ul>
+        </div>
+
+        <div class="statement">
+            <div>本活动最终解释权归赶贷网所有</div>
+        </div>
+    </div>
+
+    <script>
+        // 根据html的字体大小动态计算rem
+        (function (doc, win) {
+            var docEl = doc.documentElement,
+            resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+            recalc = function () {
+               var clientWidth = docEl.clientWidth;
+               if (!clientWidth) return;
+               docEl.style.fontSize = 20 * (clientWidth / 320) + 'px';
+            };
+
+            if (!doc.addEventListener) return;
+            win.addEventListener(resizeEvt, recalc, false);
+            doc.addEventListener('DOMContentLoaded', recalc, false);
+        })(document, window);
+    </script>
+</body>
+</html>

@@ -1,0 +1,212 @@
+/*html, head, meta, title, link, body, div, span, a, ul, li, ol, li, p, i, img, input, select, option, table, thead, tbody, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+ul li, ol li {
+    list-style: none;
+}
+body {
+    background-color: #e4f39e;
+    font-family: "Microsoft YaHei";
+}
+input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 20px;
+}
+.doatop {
+    width: 100%;
+}
+.hdxq {
+    width: 100%;
+    margin: -33px 0 18px 0px;
+}
+.hdxq div {
+    margin: 0 auto;
+}
+.hdxq div, .hdxq div img {
+    width: 116px;
+}
+.bodyContent {
+    width: 90%;
+    margin: 0 auto;
+    color: #30aa6f;
+}
+.bodyContent .actIn {
+    font-size: 8px;
+    padding: 5px 0;
+    border-bottom: 1px dashed #30aa6f;
+}
+.bodyContent > img {
+    width: 69px;
+}
+.favorable, .favorable tr th, .favorable tr td {
+    border: 1px solid #48d893;
+    border-collapse:collapse;
+}
+.favorable tr th {
+    font-size: 15px;
+    background: #30aa6f;
+    color: #fff;
+    padding: 7px 0;
+}
+.favorable {
+    width: 100%;
+    margin-top: 10px;
+}
+.favorable tr td {
+    font-size: 9px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+
+.inKind {
+    margin-top: 25px;
+}
+.activity {
+    width: 280px;
+    margin: 23px auto 15px;
+    background-color: #e7fbd5;
+    border-radius: 20px;
+}
+.activity ul {
+    padding: 9px 20px;
+}
+.activity .lastLi {
+    font-size: 9px;
+}
+
+.activity ul li {
+    font-size: 8px;
+    margin: 3px 0;
+}
+.activity .moreText {
+    width: 100%;
+    overflow: hidden;
+}
+.activity .moreText span,.activity .moreText p {
+    float: left;
+}
+.activity .moreText p {
+    width: 200px;
+}
+.bodyContent .statement {
+    width: 100%;
+    font-size: 8px;
+}
+.bodyContent .statement div {
+    padding: 0 20px 14px;
+    margin: 0 auto;
+    text-align: center;
+}*/
+html, head, meta, title, link, body, div, span, a, ul, li, ol, li, p, i, img, input, select, option, table, thead, tbody, tr, th, td {
+    margin: 0;
+    padding: 0;
+}
+ul li, ol li {
+    list-style: none;
+}
+body {
+    background-color: #e4f39e;
+    font-family: "Microsoft YaHei";
+}
+input {
+    outline: none;
+}
+a {
+    text-decoration: none;
+}
+html {
+    font-size: 20px;
+}
+.doatop {
+    width: 100%;
+}
+.hdxq {
+    width: 100%;
+    margin: -1.65rem 0 0.9rem 0px;
+}
+.hdxq div {
+    margin: 0 auto;
+}
+.hdxq div, .hdxq div img {
+    width: 5.8rem;
+}
+.bodyContent {
+    width: 90%;
+    margin: 0 auto;
+    color: #30aa6f;
+}
+.bodyContent .actIn {
+    font-size: 0.4rem;
+    padding: 0.25rem 0;
+    border-bottom: 1px dashed #30aa6f;
+}
+.bodyContent > img {
+    width: 3.45rem;
+}
+.favorable, .favorable tr th, .favorable tr td {
+    border: 1px solid #48d893;
+    border-collapse:collapse;
+}
+.favorable tr th {
+    font-size: 0.75rem;
+    background: #30aa6f;
+    color: #fff;
+    padding: 0.35rem 0;
+}
+.favorable {
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.favorable tr td {
+    font-size: 0.65rem;
+    text-align: center;
+    padding: 0.25rem 0;
+}
+
+
+.inKind {
+    margin-top: 1.25rem;
+}
+.activity {
+    width: 14rem;
+    margin: 1.15rem auto 0.75rem;
+    background-color: #e7fbd5;
+    border-radius: 1rem;
+}
+.activity ul {
+    padding: 0.45rem 1rem;
+}
+.activity .lastLi {
+    font-size: 0.45rem;
+}
+
+.activity ul li {
+    font-size: 0.6rem;
+    margin: 0.15rem 0;
+}
+.activity .moreText {
+    width: 100%;
+    overflow: hidden;
+}
+.activity .moreText span,.activity .moreText p {
+    float: left;
+}
+.activity .moreText p {
+    width: 10rem;
+}
+.bodyContent .statement {
+    width: 100%;
+    font-size: 0.4rem;
+}
+.bodyContent .statement div {
+    padding: 0 1rem 0.7rem;
+    margin: 0 auto;
+    text-align: center;
+}
